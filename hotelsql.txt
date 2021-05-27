@@ -20,7 +20,7 @@
 
 6. Qual e' il prezzo massimo pagato?
 
-	SELECT * FROM `pagamenti` LIMIT 1;
+	SELECT MAX(`price`) FROM `pagamenti`
 
 7. Seleziona gli ospiti riconosciuti con patente e nati nel 1975:
 
